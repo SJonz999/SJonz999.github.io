@@ -42,10 +42,10 @@ nav ul li a:hover {
 }
 
 main {
-    flex: 1; /* Esto empuja el footer al final de la página */
+    flex: 1; /* Tirar hasta abajo */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra horizontalmente el contenido del main */
+    align-items: center; /*Centrar */
     width: 100%;
 }
 
@@ -56,7 +56,7 @@ main {
     overflow: hidden;
     border: 2px solid #ddd;
     border-radius: 10px;
-    margin: 20px 0; /* Añadir margen arriba y abajo para separar del contenido */
+    margin: 20px 0; /* Margen */
 }
 
 .slides {
@@ -140,7 +140,7 @@ footer {
 
 .info {
     max-width: 800px;
-    margin: 20px auto; /* Añadir un margen para que no toque el footer */
+    margin: 20px auto; /*Margen de footer */
     padding: 20px;
     background-color: #fff;
     border: 2px solid #ddd;
@@ -198,7 +198,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Estilos de los puntitos de navegación */
+/* puntitos, no funcionó */
 .dots {
     text-align: center;
     margin-top: 10px;
