@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #6cd0ff, #8afa8e, #c89dff);
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom right, #c88eff, #87e5fd);
+    text-align: center;
+}
+
+.icono-persona {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.login-container input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-container button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #444;
+}
+
+.social-login-buttons {
+    margin-top: 20px;
+}
+
+.google-login, .facebook-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.google-login {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.google-login:hover {
+    background-color: #f7f7f7;
+}
+
+.facebook-login {
+    background-color: #3b5998;
+    color: white;
+}
+
+.facebook-login:hover {
+    background-color: #334d84;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.login-links {
+    margin-top: 20px;
+}
+
+.login-links a {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+    text-decoration: none;
+}
+
+.login-links a:hover {
+    text-decoration: underline;
+}
+
+.register-container, .password-reset-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom right, #c88eff, #87e5fd);
+    text-align: center;
+}
+
+.register-container h2, .password-reset-container h2 {
+    margin-bottom: 20px;
+}
+
+.register-container form, .password-reset-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-container label, .password-reset-container label {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.register-container input, .password-reset-container input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.register-container button, .password-reset-container button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-container button:hover, .password-reset-container button:hover {
+    background-color: #444;
+}
+
+.home-link {
+    display: block;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}
